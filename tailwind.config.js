@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   mode: 'jit',
   theme: {
+    fontFamily: {
+      'test': ['Oswald', ...],
+  },
     extend: {
       colors: {
         'bleu-test': '#243c5a',
