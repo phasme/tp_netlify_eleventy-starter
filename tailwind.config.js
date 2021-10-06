@@ -6,6 +6,9 @@ module.exports = {
   mode: 'jit',
   theme: {
     extend: {
+      colors: {
+        'bleu-test': '#243c5a',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
