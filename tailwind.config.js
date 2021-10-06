@@ -5,12 +5,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   mode: 'jit',
   theme: {
-    fontFamily: {
-      'test': ['Oswald', ...],
-  },
     extend: {
+      fontFamily: {
+        test: ['Oswald'],
+      },
       colors: {
         'bleu-test': '#243c5a',
+        'rouge-test': '#f00020',
       },
       typography: (theme) => ({
         DEFAULT: {
